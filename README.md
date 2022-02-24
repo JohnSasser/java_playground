@@ -39,7 +39,7 @@
   
  5: LOOPS -- while, for & forEach loops
   - WHILE 
-<!--  while condition is true, keep looping  -->
+// while condition is true, keep looping 
         while(theSecretNumber != yourNumber) {
             // get the input from the user;
             yourNumber = scan.nextInt();
@@ -53,22 +53,23 @@
         System.out.println("You got the random number.");
   
   - FOR
-<!--  prints the index each ittiration  -->
+// prints the index each ittiration  -->
     for (int i = 0; i < 9; i++) {
             System.out.println("The Number is " + i + ", ");
           }
                           
   - FOR -- ArrayList<int>():
-<!--  use the methods to access properties of unluckyNumners -->
-<!--    // .size() Method for arrayList index length;
-        // .get() Method will extract the index from the active loop;  -->
+   // use the methods to access properties of unluckyNumners -->
+   // .size() Method for arrayList index length;
+   // .get() Method will extract the index from the active loop;
+ 
   for (int i = 0; i < unluckyNumbers.size(); i++) {
             System.out.println("The UnluckyNumber at index " + i + " is " + unluckyNumbers.get(i));
         }
 
                           
   - ForEach 
-<!--   for loop, but passed an array or ArrayList to loop over   -->
+// for loop, but passed an array or ArrayList to loop over   -->
      for (int number : unluckyNumbers) {
             System.out.println("The UnluckyNumber is " + number);
         }
