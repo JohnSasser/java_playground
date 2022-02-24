@@ -65,9 +65,11 @@
                              
   - FOR
     use the methods to access properties of unluckyNumners
-    .size() Method for arrayList index length;
-   .get() Method will extract the index from the active loop;
- ```                                                     
+    // .size() Method for arrayList index length;
+  //  .get() Method will extract the index from the active loop;
+                             
+                             
+ ```                                                    
   for (int i = 0; i < unluckyNumbers.size(); i++) {
             System.out.println("The UnluckyNumber at index " + i + " is " + unluckyNumbers.get(i));
         }
